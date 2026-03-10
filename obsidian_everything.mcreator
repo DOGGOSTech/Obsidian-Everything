@@ -304,6 +304,20 @@
         ]
       },
       "path": "~/Axe"
+    },
+    {
+      "name": "ObsidianAxeRecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_axe_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obsidian_everything/advancement/recipes/obsidian_axe_recipie.json",
+          "src/main/resources/data/obsidian_everything/recipe/obsidian_axe_recipie.json"
+        ]
+      },
+      "path": "~/Axe"
     }
   ],
   "variable_elements": [],
