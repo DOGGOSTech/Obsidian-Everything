@@ -8,5 +8,7 @@
   "advancements.get_obsidian_sword.title": "Craft Obsidian Sword",
   "item.obsidian_everything.obsidian_pickaxe": "Obsidian Pickaxe",
   "advancements.obsidian_everything_acheivement.title": "Obsidian Everything",
-  "advancements.obsidian_everything_acheivement.descr": "Obsidian gets the attention it deserves!"
+  "advancements.obsidian_everything_acheivement.descr": "Obsidian gets the attention it deserves!",
+  "advancements.break_block_with_obsidian_pick.descr": "Good Job Actually Using It!",
+  "advancements.break_block_with_obsidian_pick.title": "Break A Block With An Obsidian Pickaxe"
 }

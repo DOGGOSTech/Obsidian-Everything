@@ -12,7 +12,7 @@ public class ObsidianPickaxeBlockDestroyedWithToolProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof ServerPlayer _player && _player.level() instanceof ServerLevel _level) {
-			AdvancementHolder _adv = _level.getServer().getAdvancements().get(ResourceLocation.parse("minecraft:husbandry/allay_deliver_cake_to_note_block"));
+			AdvancementHolder _adv = _level.getServer().getAdvancements().get(ResourceLocation.parse("obsidian_everything:break_block_with_obsidian_pick"));
 			if (_adv != null) {
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 				if (!_ap.isDone()) {

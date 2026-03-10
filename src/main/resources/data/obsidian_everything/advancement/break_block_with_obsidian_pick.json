@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "obsidian_everything:obsidian_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.break_block_with_obsidian_pick.title"
+    },
+    "description": {
+      "translate": "advancements.break_block_with_obsidian_pick.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "break_block_with_obsidian_pick_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "obsidian_everything:obsidian_everything_acheivement"
+}
