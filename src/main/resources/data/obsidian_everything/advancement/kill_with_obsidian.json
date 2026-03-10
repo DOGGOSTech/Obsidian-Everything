@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "obsidian_everything:obsidian_sword"
+    },
+    "title": {
+      "translate": "advancements.kill_with_obsidian.title"
+    },
+    "description": {
+      "translate": "advancements.kill_with_obsidian.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_with_obsidian_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "obsidian_everything:get_obsidian_sword"
+}

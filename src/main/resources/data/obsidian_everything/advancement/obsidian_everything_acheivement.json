@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:block/stone",
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "advancements.obsidian_everything_acheivement.title"
+    },
+    "description": {
+      "translate": "advancements.obsidian_everything_acheivement.descr"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obsidian_everything_acheivement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
