@@ -4,10 +4,10 @@
       "id": "obsidian_everything:obsidian_pickaxe"
     },
     "title": {
-      "translate": "advancements.break_block_with_obsidian_pick.title"
+      "translate": "advancements.get_obsidian_pickaxe.title"
     },
     "description": {
-      "translate": "advancements.break_block_with_obsidian_pick.descr"
+      "translate": "advancements.get_obsidian_pickaxe.descr"
     },
     "frame": "goal",
     "show_toast": true,
@@ -15,9 +15,9 @@
     "hidden": false
   },
   "criteria": {
-    "break_block_with_obsidian_pick_0": {
+    "get_obsidian_pickaxe_0": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "obsidian_everything:get_obsidian_pickaxe"
+  "parent": "obsidian_everything:obsidian_everything_acheivement"
 }

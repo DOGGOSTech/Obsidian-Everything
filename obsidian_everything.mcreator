@@ -128,7 +128,12 @@
       "locked_code": false,
       "registry_name": "obsidian_pickaxe_item_is_craftedsmelted",
       "metadata": {
-        "dependencies": [],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
         "files": [
           "src/main/java/net/mcreator/obsidianeverything/procedures/ObsidianPickaxeItemIsCraftedsmeltedProcedure.java"
         ]
@@ -225,6 +230,19 @@
         ]
       },
       "path": "~/Pickaxe"
+    },
+    {
+      "name": "GetObsidianPickaxe",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_obsidian_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obsidian_everything/advancement/get_obsidian_pickaxe.json"
+        ]
+      },
+      "path": "~/Pickaxe"
     }
   ],
   "variable_elements": [],
@@ -258,7 +276,9 @@
       "advancements.obsidian_everything_acheivement.title": "Obsidian Everything",
       "advancements.obsidian_everything_acheivement.descr": "Obsidian gets the attention it deserves!",
       "advancements.break_block_with_obsidian_pick.descr": "Good Job Actually Using It!",
-      "advancements.break_block_with_obsidian_pick.title": "Break A Block With An Obsidian Pickaxe"
+      "advancements.break_block_with_obsidian_pick.title": "Break A Block With An Obsidian Pickaxe",
+      "advancements.get_obsidian_pickaxe.title": "Get Obsidian Pickaxe",
+      "advancements.get_obsidian_pickaxe.descr": "Congrats! Im proud of you!"
     }
   },
   "metadata": {

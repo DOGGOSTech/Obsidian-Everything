@@ -33,6 +33,6 @@ public class ObsidianPickaxeItem extends Item {
 	@Override
 	public void onCraftedBy(ItemStack itemstack, Player entity) {
 		super.onCraftedBy(itemstack, entity);
-		ObsidianPickaxeItemIsCraftedsmeltedProcedure.execute();
+		ObsidianPickaxeItemIsCraftedsmeltedProcedure.execute(entity);
 	}
 }
