@@ -42,6 +42,9 @@
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "ObsidianAxeItemIsCraftedsmelted"
+    },
     "onBlockDestroyedWithTool": {
       "name": "ObsidianAxeBlockDestroyedWithTool"
     }

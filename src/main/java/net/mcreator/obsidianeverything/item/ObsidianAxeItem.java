@@ -6,6 +6,7 @@ import net.minecraft.world.item.ToolMaterial;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.tags.TagKey;
 import net.minecraft.tags.BlockTags;
@@ -13,6 +14,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.obsidianeverything.procedures.ObsidianAxeItemIsCraftedsmeltedProcedure;
 import net.mcreator.obsidianeverything.procedures.ObsidianAxeBlockDestroyedWithToolProcedure;
 
 public class ObsidianAxeItem extends AxeItem {
@@ -27,5 +29,11 @@ public class ObsidianAxeItem extends AxeItem {
 		boolean retval = super.mineBlock(itemstack, world, blockstate, pos, entity);
 		ObsidianAxeBlockDestroyedWithToolProcedure.execute(blockstate, entity);
 		return retval;
+	}
+
+	@Override
+	public void onCraftedBy(ItemStack itemstack, Player entity) {
+		super.onCraftedBy(itemstack, entity);
+		ObsidianAxeItemIsCraftedsmeltedProcedure.execute(entity);
 	}
 }

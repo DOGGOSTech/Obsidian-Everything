@@ -367,6 +367,25 @@
         ]
       },
       "path": "~/Axe"
+    },
+    {
+      "name": "ObsidianAxeItemIsCraftedsmelted",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_axe_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/obsidianeverything/procedures/ObsidianAxeItemIsCraftedsmeltedProcedure.java"
+        ]
+      },
+      "path": "~/Axe"
     }
   ],
   "variable_elements": [],
